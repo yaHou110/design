@@ -9,7 +9,6 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { HemooraLogo } from '@/components/HemooraLogo';
 import { AppleLiquidGlassBackground } from '@/components/AppleLiquidGlassBackground';
-import { SmoothScroll } from '@/components/SmoothScroll';
 import {
   CreditCard,
   Phone,
@@ -38,10 +37,7 @@ function HomeContent() {
         isDark ? 'text-slate-100' : 'text-slate-900'
       }`}
     >
-      {/* 120Hz/60Hz Apple-grade Smooth Inertial Scrolling */}
-      <SmoothScroll />
-
-      {/* Apple Liquid Glass Mesh Background */}
+      {/* Soft gradient background */}
       <AppleLiquidGlassBackground />
 
       {/* Top Header */}

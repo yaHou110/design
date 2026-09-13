@@ -96,7 +96,7 @@ export const DesignShowcase: React.FC<DesignShowcaseProps> = ({ onOpenOrderModal
             <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
               <div>
                 <div className="flex items-center gap-2 flex-wrap">
-                  <span className="w-2.5 h-2.5 rounded-full bg-cyan-400 animate-pulse" />
+                  <span className="w-2.5 h-2.5 rounded-full bg-cyan-400" />
                   <span className="text-xs font-mono font-bold text-cyan-600 dark:text-cyan-400">
                     کد: MED-CARDIO-2025
                   </span>
@@ -326,7 +326,7 @@ export const DesignShowcase: React.FC<DesignShowcaseProps> = ({ onOpenOrderModal
             <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
               <div>
                 <div className="flex items-center gap-2 flex-wrap">
-                  <span className="w-2.5 h-2.5 rounded-full bg-amber-400 animate-pulse" />
+                  <span className="w-2.5 h-2.5 rounded-full bg-amber-400" />
                   <span className="text-xs font-mono font-bold text-amber-600 dark:text-amber-400">
                     کد: LUX-GOLD-2025
                   </span>
@@ -495,7 +495,7 @@ export const DesignShowcase: React.FC<DesignShowcaseProps> = ({ onOpenOrderModal
             <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
               <div>
                 <div className="flex items-center gap-2 flex-wrap">
-                  <span className="w-2.5 h-2.5 rounded-full bg-blue-500 animate-pulse" />
+                  <span className="w-2.5 h-2.5 rounded-full bg-blue-500" />
                   <span className="text-xs font-mono font-bold text-blue-600 dark:text-blue-400">
                     کد: TECH-TITANIUM-2025
                   </span>
@@ -664,7 +664,7 @@ export const DesignShowcase: React.FC<DesignShowcaseProps> = ({ onOpenOrderModal
             <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
               <div>
                 <div className="flex items-center gap-2 flex-wrap">
-                  <span className="w-2.5 h-2.5 rounded-full bg-indigo-400 animate-pulse" />
+                  <span className="w-2.5 h-2.5 rounded-full bg-indigo-400" />
                   <span className="text-xs font-mono font-bold text-indigo-600 dark:text-indigo-400">
                     کد: LAW-PRESTIGE-2025
                   </span>
@@ -827,7 +827,7 @@ export const DesignShowcase: React.FC<DesignShowcaseProps> = ({ onOpenOrderModal
             <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
               <div>
                 <div className="flex items-center gap-2 flex-wrap">
-                  <span className="w-2.5 h-2.5 rounded-full bg-teal-400 animate-pulse" />
+                  <span className="w-2.5 h-2.5 rounded-full bg-teal-400" />
                   <span className="text-xs font-mono font-bold text-teal-600 dark:text-teal-400">
                     کد: STATIONERY-MED-A5
                   </span>

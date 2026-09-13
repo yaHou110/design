@@ -110,7 +110,7 @@ export const HemooraLogo: React.FC<HemooraLogoProps> = ({
             >
               هیمورا
             </span>
-            <span className="w-1.5 h-1.5 rounded-full bg-cyan-500 animate-pulse" />
+            <span className="w-1.5 h-1.5 rounded-full bg-cyan-500" />
           </div>
           <span
             className={`text-[9px] font-mono tracking-wider ${

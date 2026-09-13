@@ -13,27 +13,6 @@
     -moz-osx-font-smoothing: grayscale;
   }
 
-  /* Lenis Smooth Scroll Recommended Rules */
-  html.lenis, html.lenis body {
-    height: auto;
-  }
-
-  .lenis.lenis-smooth {
-    scroll-behavior: auto !important;
-  }
-
-  .lenis.lenis-smooth [data-lenis-prevent] {
-    overscroll-behavior: contain;
-  }
-
-  .lenis.lenis-stopped {
-    overflow: hidden;
-  }
-
-  .lenis.lenis-scrolling iframe {
-    pointer-events: none;
-  }
-
   body {
     font-family: var(--font-vazir);
     font-feature-settings: "ss01" on, "cv01" on;
@@ -44,55 +23,6 @@
     font-family: var(--font-vazir);
     letter-spacing: -0.02em;
   }
-}
-
-/* Apple Liquid Glass Animations */
-@keyframes liquidFlow1 {
-  0%, 100% {
-    transform: translate(0px, 0px) scale(1) rotate(0deg);
-  }
-  33% {
-    transform: translate(40px, -50px) scale(1.12) rotate(15deg);
-  }
-  66% {
-    transform: translate(-30px, 30px) scale(0.92) rotate(-10deg);
-  }
-}
-
-@keyframes liquidFlow2 {
-  0%, 100% {
-    transform: translate(0px, 0px) scale(1) rotate(0deg);
-  }
-  33% {
-    transform: translate(-50px, 40px) scale(1.15) rotate(-12deg);
-  }
-  66% {
-    transform: translate(35px, -30px) scale(0.9) rotate(18deg);
-  }
-}
-
-@keyframes liquidFlow3 {
-  0%, 100% {
-    transform: translate(0px, 0px) scale(1);
-  }
-  50% {
-    transform: translate(40px, -40px) scale(1.1);
-  }
-}
-
-.animate-liquid-1 {
-  animation: liquidFlow1 18s ease-in-out infinite;
-  will-change: transform;
-}
-
-.animate-liquid-2 {
-  animation: liquidFlow2 22s ease-in-out infinite;
-  will-change: transform;
-}
-
-.animate-liquid-3 {
-  animation: liquidFlow3 20s ease-in-out infinite;
-  will-change: transform;
 }
 
 /* Signature Hemoora Branding Text Style */
