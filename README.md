@@ -3,7 +3,7 @@
 سایت تک‌صفحه‌ای نمونه‌کارها و سفارش طراحی **کارت ویزیت**، **سرنسخه A5** و **ست اداری**.
 سایت کاملاً فارسی و راست‌به‌چپ (RTL) است و سفارش‌ها از طریق مودال سفارش و تماس تلفنی ثبت می‌شوند.
 
-🌐 **نسخه آنلاین:** https://design-pi-olive.vercel.app
+🌐 **نسخه آنلاین:** https://himura-design.vercel.app
 
 ## پشته فناوری
 
@@ -48,8 +48,9 @@ lib/          ابزارهای کمکی (cn)
 
 پروژه Vercel با نام `design` (تیم `yahou`) به شاخه `main` همین ریپو وصل است؛ هر push روی `main` به‌صورت خودکار یک دیپلوی پروداکشن می‌سازد.
 
-- Production: https://design-pi-olive.vercel.app
-- Alias: https://design-yahou.vercel.app
+- Production: https://himura-design.vercel.app
+
+آلیاس‌های خودکار پروژه (`design-yahou.vercel.app` و `design-git-main-yahou.vercel.app`) پشت احراز هویت Vercel هستند و برای بازدید عمومی باید از دامنه Production استفاده شود.
 
 دیپلوی دستی:
 
