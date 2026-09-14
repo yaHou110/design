@@ -18,17 +18,6 @@ export const useAppTheme = () => {
   return context;
 };
 
-// Also export alias useSecurity if needed for backward compatibility
-export const useSecurity = () => {
-  const context = useAppTheme();
-  return {
-    isDark: context.isDark,
-    toggleTheme: context.toggleTheme,
-    watermarkIntensity: 'light' as const,
-    showNoise: false,
-  };
-};
-
 export const SecurityProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   // Default is LIGHT MODE (Day mode - حالت روز) as explicitly requested by the user
   const [isDark, setIsDark] = useState<boolean>(false);

@@ -8,9 +8,11 @@
 ## پشته فناوری
 
 - **Next.js 15** (App Router) + **React 19** + **TypeScript**
-- **Tailwind CSS 4** برای استایل‌ها
-- `lucide-react` برای آیکون‌ها و `lenis` برای اسکرول نرم
+- **Tailwind CSS 4** برای استایل‌ها (`@tailwindcss/postcss` + `autoprefixer`)
+- `lucide-react` برای آیکون‌ها
 - هیچ بک‌اند، API Route یا متغیر محیطی لازم نیست؛ صفحه به‌صورت استاتیک بیلد و روی Vercel سرو می‌شود.
+
+نکته‌ی مهم درباره‌ی اسکرول: صفحه با اسکرول بومی مرورگر کار می‌کند و هیچ کتابخانه‌ی اسکرول یا انیمیشن (مانند Lenis) در پروژه نیست. پس‌زمینه هم گرادیان‌های استاتیک است و هیچ لایه‌ی `backdrop-filter` یا انیمیشن بی‌پایانی ندارد. افزودن دوباره‌ی این‌ها اسکرول را روی موبایل سنگین می‌کند.
 
 ## اجرا روی سیستم محلی
 
@@ -36,13 +38,23 @@ bun run dev
 ## ساختار پروژه
 
 ```
-app/          layout (متادیتا و JSON-LD)، صفحه اصلی و استایل‌های سراسری
-components/   بخش‌های صفحه: DesignShowcase، OrderModal، Header، Footer،
-              SEOFaqSection، HemooraLogo، WatermarkOverlay، SecurityShield،
-              AppleLiquidGlassBackground، SmoothScroll
-hooks/        use-mobile
-lib/          ابزارهای کمکی (cn)
+app/
+  layout.tsx      متادیتا، JSON-LD و فونت وزیرمتن (self-hosted با next/font)
+  page.tsx        چیدمان صفحه‌ی اصلی و مدیریت باز شدن مودال سفارش
+  globals.css     استایل‌های سراسری، محافظت از محتوا و متن جایگزین چاپ
+  icon.svg        فاوآیکون
+components/
+  DesignShowcase.tsx            گالری نمونه‌کارها (پنج طرح + فیلتر دسته‌بندی)
+  OrderModal.tsx                مودال ثبت سفارش
+  Header.tsx / Footer.tsx       هدر ثابت با کلید شب/روز و فوتر
+  SEOFaqSection.tsx             پرسش‌های متداول
+  HemooraLogo.tsx               لوگوی برند در سه حالت نمایش
+  WatermarkOverlay.tsx          واترمارک روی نمونه‌کارها
+  SecurityShield.tsx            تأمین‌کننده‌ی تم و محافظت از محتوا (راست‌کلیک/درگ)
+  AppleLiquidGlassBackground.tsx  پس‌زمینه‌ی گرادیانی ثابت
 ```
+
+همه‌ی این کامپوننت‌ها در `app/page.tsx` (و چند مورد داخل `DesignShowcase.tsx`) استفاده می‌شوند؛ فایل بی‌استفاده‌ای در ریپو نیست.
 
 ## استقرار
 
