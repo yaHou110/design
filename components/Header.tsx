@@ -19,7 +19,7 @@ export const Header: React.FC<HeaderProps> = ({ onOpenOrderModal, phone = '۰۹�
         isDark
           ? 'bg-slate-950/85 border-b border-cyan-500/20 text-white'
           : 'bg-white/90 border-b border-slate-200/80 text-slate-900'
-      } backdrop-blur-md shadow-xs`}
+      } shadow-xs`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
         {/* Logo & Brand Identity */}

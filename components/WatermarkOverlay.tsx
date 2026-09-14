@@ -19,7 +19,7 @@ export const WatermarkOverlay: React.FC<WatermarkOverlayProps> = ({
       aria-hidden="true"
     >
       {/* Middle-Left (Center-Left) Sleek Watermark Badge */}
-      <div className="absolute top-1/2 left-3 -translate-y-1/2 flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl bg-black/50 dark:bg-black/70 backdrop-blur-md border border-white/20 text-white/90 shadow-lg shadow-black/30">
+      <div className="absolute top-1/2 left-3 -translate-y-1/2 flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl bg-black/75 dark:bg-black/85 border border-white/20 text-white/90 shadow-lg shadow-black/30">
         <span className="w-1.5 h-1.5 rounded-full bg-cyan-400" />
         <span className="text-[10px] font-bold tracking-tight text-white/95">
           {customText}

@@ -94,7 +94,7 @@ export const HemooraLogo: React.FC<HemooraLogoProps> = ({
   if (variant === 'badge') {
     return (
       <div
-        className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-2xl border backdrop-blur-md shadow-sm select-none transition-colors ${
+        className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-2xl border shadow-sm select-none transition-colors ${
           isDark
             ? 'bg-slate-900/90 border-cyan-500/30 text-white shadow-cyan-950/40'
             : 'bg-blue-50/90 border-blue-200 text-slate-900 shadow-blue-100'

@@ -53,7 +53,7 @@ export const DesignShowcase: React.FC<DesignShowcaseProps> = ({ onOpenOrderModal
     <section className="w-full flex flex-col gap-8 py-4" id="showcase-section">
       {/* Category Filter Bar */}
       <div
-        className={`flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-3 rounded-2xl border backdrop-blur-md ${
+        className={`flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-3 rounded-2xl border ${
           isDark ? 'bg-slate-900/70 border-cyan-500/20 shadow-xl' : 'bg-white border-slate-200 shadow-xs'
         }`}
       >

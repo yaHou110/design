@@ -49,8 +49,8 @@ function HomeContent() {
         <section
           className={`relative overflow-hidden rounded-3xl p-6 sm:p-10 border transition-all ${
             isDark
-              ? 'bg-slate-900/60 border-cyan-500/20 shadow-2xl shadow-cyan-950/20 backdrop-blur-xl'
-              : 'bg-white/70 border-white/60 shadow-xl shadow-slate-200/50 backdrop-blur-xl'
+              ? 'bg-slate-900/75 border-cyan-500/20 shadow-2xl shadow-cyan-950/20'
+              : 'bg-white/85 border-white/60 shadow-xl shadow-slate-200/50'
           }`}
         >
           {/* Subtle Ambient Glows */}
@@ -94,8 +94,8 @@ function HomeContent() {
                 href="tel:09354467269"
                 className={`px-6 py-3.5 rounded-2xl font-bold text-sm border flex items-center gap-2.5 transition-all ${
                   isDark
-                    ? 'bg-slate-900/80 hover:bg-slate-800 text-cyan-400 border-cyan-500/30 backdrop-blur-md'
-                    : 'bg-white/80 hover:bg-white text-slate-800 border-slate-200 backdrop-blur-md shadow-xs'
+                    ? 'bg-slate-900/90 hover:bg-slate-800 text-cyan-400 border-cyan-500/30'
+                    : 'bg-white/90 hover:bg-white text-slate-800 border-slate-200 shadow-xs'
                 }`}
               >
                 <Phone className="w-4 h-4" />
@@ -108,8 +108,8 @@ function HomeContent() {
                 rel="noopener noreferrer"
                 className={`px-5 py-3.5 rounded-2xl font-bold text-sm border flex items-center gap-2 transition-all ${
                   isDark
-                    ? 'bg-emerald-950/40 hover:bg-emerald-900/60 text-emerald-300 border-emerald-500/40 backdrop-blur-md'
-                    : 'bg-emerald-50/80 hover:bg-emerald-100 text-emerald-800 border-emerald-200 backdrop-blur-md'
+                    ? 'bg-emerald-950/70 hover:bg-emerald-900/80 text-emerald-300 border-emerald-500/40'
+                    : 'bg-emerald-50/90 hover:bg-emerald-100 text-emerald-800 border-emerald-200'
                 }`}
               >
                 <MessageSquare className="w-4 h-4" />
